@@ -25,6 +25,8 @@ url: "https://davidcapper.dev" # the base hostname & protocol for your site, e.g
 github_username:  thip
 linkedin_username: d-capper
 
+google_analytics: UA-41034582-3
+
 # Build settings
 markdown: kramdown
 theme: minima
