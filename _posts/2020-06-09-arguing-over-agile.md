@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Arguing over Agile"
+image: /assets/robert-bye-hb4kQYtLZsM-unsplash.jpg
 description: "Strong opinions, loosely held"
 permalink: /posts/arguing-over-agile
 ---
