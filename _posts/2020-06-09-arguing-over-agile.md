@@ -19,9 +19,10 @@ You wouldn't pick a brand new supercar to navigate across rough terrain, and you
 
 Software projects tend to be complex endeavours. There are a whole host of techniques and tricks that you can use to help you manage this complexity, and often people will have their favourites. However, you should regularly reflect on how these are serving your team and make adjustments to them as necessary. The crucial point is that you are always asking yourself if your process is working for you and if there is anything you could do to improve it.
 
-There is an idea I particularly like that I was introduced to at Made Tech: we should strive to have strong opinions, loosely held. Strong opinions can be great; they make for engaging and stimulating debate, backed by a passion that's hard to ignore. But we shouldn't hold onto them so tightly that we block out all other options and ideas. 
+There is an idea I particularly like that I was introduced to at [Made Tech][made-tech]: we should strive to have strong opinions, loosely held. Strong opinions can be great; they make for engaging and stimulating debate, backed by a passion that's hard to ignore. But we shouldn't hold onto them so tightly that we block out all other options and ideas. 
 
 It's important to be pragmatic when recommending practices to people and be open to alternatives. Just because something did or didn't work for you in the past, doesn't mean that it will or will not work for someone else in the future. By all means, share your experiences and thoughts, but don't sell them as if they are the only choice.
 
 [robert-bye]: https://unsplash.com/@robertbye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 [unsplash]: https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+[made-tech]: https://www.madetech.com/
