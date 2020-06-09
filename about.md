@@ -1,18 +1,10 @@
 ---
 layout: page
-title: About
+# title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I am a senior software engineer with a particular interest in process and practices. 
+I consider myself a generalist who enjoys opportunities to work with new languages and technologies, 
+but I'm also not afraid to dive into legacy. 
+I believe in disciplined Test Driven Development and Clean Architecture - there is nothing that I love more than helping people discover the benefits of these practices for themselves.
