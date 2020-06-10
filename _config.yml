@@ -18,7 +18,6 @@ email: contact@davidcapper.dev
 description: >- # this means to ignore newlines until "baseurl:"
   I am a senior software engineer with a particular interest in process and practices.
   I consider myself a generalist who enjoys opportunities to work with new languages and technologies, but I'm also not afraid to dive into legacy.
-  I try to practice disciplined Test Driven Development and Clean Architecture - there is nothing that I love more than helping people discover the benefits of these practices for themselves.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://davidcapper.dev" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
