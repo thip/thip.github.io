@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Arguing over Agile"
-image: /assets/robert-bye-hb4kQYtLZsM-unsplash.jpg
+image: /assets/cloudvisual-co-uk-DCtwjzQ9uVE-unsplash.jpg
 description: "Strong opinions, loosely held"
 permalink: /posts/arguing-over-agile
 ---
 
-![a vehicle suitable for rough terrain](/assets/robert-bye-hb4kQYtLZsM-unsplash.jpg)
-*Photo by [Robert Bye][robert-bye] on [Unsplash][unsplash]*
+![foxes arguing](/assets/cloudvisual-co-uk-DCtwjzQ9uVE-unsplash.jpg)
+*Photo by [cloudvisual.co.uk](https://unsplash.com/@cloudvisual) on [Unsplash][unsplash]*
 
 A couple of days ago, I was struck by a colleague's point about how confusing it can be when listening to people who have strong but conflicting opinions about various agile practices. The remark was brought about by a discussion concerning the pros and cons of different estimation techniques, and whether or not you should even practice estimation at all. It was a great conversation, but I can see how someone with less experience or minimal exposure to the techniques we were talking about could be left feeling very lost. 
 
