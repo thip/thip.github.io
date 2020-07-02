@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Your Head Around Story Points"
-image: /assets/cloudvisual-co-uk-DCtwjzQ9uVE-unsplash.jpg
+image: /assets/aron-visuals-BXOXnQ26B7o-unsplash.jpg
 description: "Estimating complexity instead of time"
 permalink: /posts/getting-your-head-around-story-points
 ---
