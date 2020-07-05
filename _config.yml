@@ -23,6 +23,7 @@ url: "https://davidcapper.dev" # the base hostname & protocol for your site, e.g
 #twitter_username: jekyllrb
 github_username:  thip
 linkedin_username: d-capper
+rss: rss
 
 google_analytics: UA-41034582-3
 
