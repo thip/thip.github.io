@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Bamboo Bridges"
-image: /assets/gabriel-garcia-marengo-2_F8_vP-_Sg-unsplash.jpg
+image: /assets/ashwin-kumar-bamboo-bridge-meghalaya.jpg
 description: "Giving yourself room to grow"
 permalink: /posts/bamboo-bridges
 tags:
 - draft
 ---
+
+![bamboo bridge](/assets/ashwin-kumar-bamboo-bridge-meghalaya.jpg)
+*Photo by [Ashwin Kumar](https://www.flickr.com/people/34501870@N00) on [flickr][flickr]*
 
 Bridge metaphors seem to be unavoidable when talking about agile vs waterfall software development. There’s something irresistible about comparing intangible software with solid concrete and steel rods.  
 
@@ -29,3 +32,9 @@ Your users have a problem that they need solving. As they stare down the giant g
 3. You could tie together a few bamboo poles to span the gap, and invite your users to balance across. 
 
 Option one is obviously the classic waterfall approach that people love to berate. I think most people who believe themselves to be agile these days would pick option two.  It sounds sensible, and with an experienced team to build it you may well end up with a functioning bridge faster than you would have if you designed the whole thing up front. With all the testing and user feedback it certainly sounds like an agile approach but is it really? 
+
+
+[...TBC...]
+
+
+[flickr]: https://www.flickr.com/photos/34501870@N00/7159001781
