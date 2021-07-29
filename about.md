@@ -4,7 +4,6 @@ layout: page
 permalink: /about/
 ---
 
-I am a senior software engineer with a particular interest in process and practices. 
-I consider myself a generalist who enjoys opportunities to work with new languages and technologies, 
-but I'm also not afraid to dive into legacy. 
-I believe in disciplined Test Driven Development and Clean Architecture - there is nothing that I love more than helping people discover the benefits of these practices for themselves.
+I am a lead engineer with a deep interest in the messy stuff that surrounds software development. 
+I'm not attached to any particular technology or tools, and I'm happiest when I can get stuck in with my team do deliver useful things for people.
+I'm a strong believer in making everything as ridiculousely simple as I can get away with.
