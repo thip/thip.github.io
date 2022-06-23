@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bamboo Bridges"
+title:  "Bamboo Bridges - a metaphor about optimising for change"
 image: /assets/ashwin-kumar-bamboo-bridge-meghalaya.jpg
 description: "Giving yourself room to grow"
 permalink: /posts/bamboo-bridges
@@ -31,9 +31,11 @@ Your users have a problem that they need solving. As they stare down the giant g
 2. You could roll up your sleeves and start pouring concrete right away. You promise your users that things are going in the right direction, give them regular updates and invite them test parts of the bridge as it’s built to make sure that they’ve happy with it.
 3. You could tie together a few bamboo poles to span the gap, and invite your users to balance across. 
 
-Option one is obviously the classic waterfall approach that people love to berate. I think most people who believe themselves to be agile these days would pick option two.  It sounds sensible, and with an experienced team to build it you may well end up with a functioning bridge faster than you would have if you designed the whole thing up front. With all the testing and user feedback it certainly sounds like an agile approach but is it really? 
+Option one is obviously the classic waterfall approach that people love to berate. I think most people who believe themselves to be agile these days would pick option two.  It sounds sensible, and with an experienced team to build it you may well end up with a functioning bridge faster than you would have if you designed the whole thing up front. With all the testing and user feedback it certainly sounds like an agile approach but is it really? If you're not careful you might find yourself in a position where your structure spans half the gorge but for one reason or another you discover that it's not going to make it all the way. You feel like you did all the right things, you broke the problem up into short five metre chunks which you could realistically commit to completing every couple of weeks. 'Users' would walk out on the bridge right up to the edge and tell you that it felt pretty stable so far, and they were happy with the direction it was pointing. 
 
+One day, however, you start to notice cracks and they seem to be growing with every metre you add to the bridge. Everyone agrees tht fixing the cracks is a priority so you begin to focus on that. It seems like there are probably two viable approaches. You could either tear the whole thing down and start again in the hopes that you can work out how to make sure there are no cracks this time. Alternatively you could try and secure the cracks with big steel straps and rivets. Neither option is particularly appealing You've spent a lot of money on concrete already and it will time consuming and expensive the break up and remove it. The steel straps are cheaper and will let you keep building the bridge in the right direction. Your team opts for the latter and it feels like the right decision. You start making progress again until you discover that the rivets you used to install the straps are sheering off when the wind blows a certain direction. You add more straps to reduce the strain on the current ones and before you know it, almost all your focus is on working out where the next strap needs to be placed in order to keep the whole structure upright. The bridge is ugly, people keep tripping over straps, and now it takes weeks to extend the bridge just a few centimeters because you have to work around all the awkwardly placed straps. 
 
+This is the kind of experience that leads to people saying things like "Agile is great in theory, but really you should just do waterfall" (as if _doing waterfall_ was an actual defined process itself). They've been burned by projects 
 [...TBC...]
 
 
