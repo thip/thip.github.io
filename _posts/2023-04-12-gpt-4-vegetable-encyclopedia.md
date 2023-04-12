@@ -11,7 +11,7 @@ permalink: /posts/gpt-4-vegetable-encyclopedia
 
 ## Introduction
 
-I recently embarked on a fascinating journey to build a website that serves as an A-Z of vegetables. This website includes descriptions, facts, history, and month-by-month growing advice for each vegetable. I wanted to see how far I could push the boundaries of the AI world and decided to use GPT-4 and DALL-E from OpenAI to power this project. In this blog, I'll walk you through my experiences and the steps I took in using these cutting-edge AI technologies to create a static website generator which can be found at [https://vegetables.hortus.dev](https://vegetables.hortus.dev).
+I recently embarked on a fascinating journey to build a website that serves as an A-Z of vegetables. This website includes descriptions, facts, history, and month-by-month growing advice for each vegetable. I wanted to see how far I could push the boundaries of the AI world and decided to use GPT-4 and DALL-E from OpenAI to power this project. In this blog, I'll walk you through my experiences and the steps I took in using these cutting-edge AI technologies to create a static website generator which can be found at [https://vegetables.hortus.dev](https://vegetables.hortus.dev?utm_source=david_capper_blog).
 
 ## Step 1: Getting the Data
 
