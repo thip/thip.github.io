@@ -1,14 +1,15 @@
 ---
 layout: post
 title:  "Building a Vegetable Encyclopedia Using GPT-4 and DALL-E"
-image: /assets/ashwin-kumar-bamboo-bridge-meghalaya.jpg
+image: /assets/robot_with_vegetables.jpg
 description: "Giving yourself room to grow"
 permalink: /posts/gpt-4-vegetable-encyclopedia
 tags:
 - draft
 ---
 
-# Building a Vegetable Encyclopedia Using GPT-4 and DALL-E
+![Robot holding vegetables](/assets/robot_with_vegetables.jpg)
+*Photo by Dall-E 2*
 
 ## Introduction
 
