@@ -4,8 +4,6 @@ title:  "Building a Vegetable Encyclopedia Using GPT-4 and DALL-E"
 image: /assets/robot_with_vegetables.jpg
 description: "Giving yourself room to grow"
 permalink: /posts/gpt-4-vegetable-encyclopedia
-tags:
-- draft
 ---
 
 ![Robot holding vegetables](/assets/robot_with_vegetables.jpg)
@@ -29,7 +27,7 @@ To make the website dynamic, I asked GPT-4 to convert the HTML page into a templ
 
 ## Step 4: Generating a Web Application
 
-I then inquired GPT-4 to write a program that would accept a directory of JSON files and populate the pages with the template. This made it simple to generate various pages for each vegetable in the list.
+I then instructed GPT-4 to write a program that would accept a directory of JSON files and populate the pages with the template. This made it simple to generate various pages for each vegetable in the list.
 
 ## Step 5: Building the Directory Page
 
