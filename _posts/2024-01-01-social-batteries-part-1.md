@@ -15,7 +15,7 @@ tags:
 >2. [Selling the Prototypes Online](/posts/social-batteries-part-2)
 >3. [Going from Prototype to Production](/posts/social-batteries-part-3)
 
-## Introdution
+## Introduction
 ![3D Render of the design in KiCad](/assets/SocialBattery-1.jpg)
 *A 3D render of the design in KiCad*
 
