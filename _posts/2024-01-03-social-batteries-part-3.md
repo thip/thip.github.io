@@ -7,16 +7,19 @@ permalink: /posts/social-batteries-part-3
 tags:
 ---
 
->I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](). It's a long post so I have broken it up into chunks to make it a bit easier to digest. These are:
+>I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](). 
+>
+>This is a long post so I have broken it up into chunks to make it a bit easier to digest. These are:
 >
 >1. [Designing and Prototyping the Board](/posts/social-batteries-part-1)
 >2. [Selling the Prototypes Online](/posts/social-batteries-part-2)
 >3. [Going from Prototype to Production](/posts/social-batteries-part-3) (this article)
 
-![The final product on my workbench](/assets/SocialBattery-3.jpg)
-
 ## Going from prototype to production
-With some sales under my belt I felt confident enough to do a big small production run. I generated updated gerbers and placement files with the changes I had implemented after receiving my prototype boards. I uploaded them to JLC PCB and went through the process of configuring my order. I was planning to make 100, but I decided to tweak things a little to work out how quantity affected price and it turned out it wasn’t much more expensive to make 250 so I went with that. I also decided to go with ENIG for my surface finish rather than HASL. HASL finishes are achieved by dipping boards in molten solder and then removing the excess with ‘blades’ of hot air whereas ENIG is where copper surfaces are plated with gold. There are pros and cons with both methods. HASL is generally much cheaper, but ENIG results in a significantly more level surface which can be important when using components with lots of fine pitch pins. This isn’t really a problem for me but I decided to splash out for ENIG because I thought it would look nicer and probably be slightly harder wearing.
+![The final product on my workbench](/assets/SocialBattery-3.jpg)
+*A few of the completed badges on my workbench*
+
+In the [previous post in this series](/posts/social-batteries-part-2) I recieved my prototypes and had a go at selling them online. With some succesful ales under my belt I felt confident enough to do a big small production run. I generated updated gerbers and placement files with the changes I had implemented after receiving my prototype boards. I uploaded them to JLC PCB and went through the process of configuring my order. I was planning to make 100, but I decided to tweak things a little to work out how quantity affected price and it turned out it wasn’t much more expensive to make 250 so I went with that. I also decided to go with ENIG for my surface finish rather than HASL. HASL finishes are achieved by dipping boards in molten solder and then removing the excess with ‘blades’ of hot air whereas ENIG is where copper surfaces are plated with gold. There are pros and cons with both methods. HASL is generally much cheaper, but ENIG results in a significantly more level surface which can be important when using components with lots of fine pitch pins. This isn’t really a problem for me but I decided to splash out for ENIG because I thought it would look nicer and probably be slightly harder wearing.
 
 I also made sure that I had set up my components in KiCad so that it could generate a BOM that JLCPCB could automatically read and fulfil. This worked really well but sadly the ATtiny I needed was still not in stock with them. The did have the option to pre-order it, however. The lead time was about 2 weeks and the price was significantly cheaper than anything I could find through their global sourcing service, so I figured I'd accept the short wait in exchange for lower costs. Sadly it was too good to be true. A little while later I received  an email asking me to pay the difference between the price initially shown and a new quote for my requested quantity of chips. The new price matched that of the cheapest global sourcing supplier so I wasn't too surprised/upset - but it's definitely worth bearing in mind that until all the components are in the warehouse and assigned to you there may be other costs.
 

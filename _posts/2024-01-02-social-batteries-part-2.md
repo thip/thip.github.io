@@ -7,16 +7,19 @@ permalink: /posts/social-batteries-part-2
 tags:
 ---
 
->I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](). It's a long post so I have broken it up into chunks to make it a bit easier to digest. These are:
+>I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](). 
+>
+>This is a long post so I have broken it up into chunks to make it a bit easier to digest. These are:
 >
 >1. [Designing and Prototyping the Board](/posts/social-batteries-part-1)
 >2. [Selling the Prototypes Online](/posts/social-batteries-part-2) (this article)
 >3. [Going from Prototype to Production](/posts/social-batteries-part-3)
 
-![Prototype social battery in my hand](/assets/SocialBattery-2.jpg)
-
 ## Selling the prototypes online
-My plan was to sell on Etsy. There were a lot of the non-interactive enamel social battery pin badges there already, but I figured I would stand out reasonably well amongst them - especially if I boosted my listing to get it at the top of the page.  I signed up, took some photos, wrote a nice description and published my product. Everything seemed great but very quickly I spotted an email in my inbox with the title "We removed some of your listings that don’t follow our Seller Policy". Okay, no problem... I figured I'd check exactly what policy I'd violated, fix it an republish... Unfortunately Etsy won't tell you where you've gone wrong. All you get is a few links to generic articles about Etsy's seller policies. Maybe it was because I was selling with lithium coin cell included?
+![Prototype social battery in my hand](/assets/SocialBattery-2.jpg)
+*The first prototype badge working*
+
+In the [previous post in this series](/posts/social-batteries-part-1) I designed and manufactured a small batch of social battery pin badge prototypes. My plan was to sell them on Etsy. There were a lot of the non-interactive enamel social battery pin badges there already, but I figured I would stand out reasonably well amongst them - especially if I boosted my listing to get it at the top of the page.  I signed up, took some photos, wrote a nice description and published my product. Everything seemed great but very quickly I spotted an email in my inbox with the title "We removed some of your listings that don’t follow our Seller Policy". Okay, no problem... I figured I'd check exactly what policy I'd violated, fix it an republish... Unfortunately Etsy won't tell you where you've gone wrong. All you get is a few links to generic articles about Etsy's seller policies. Maybe it was because I was selling with lithium coin cell included?
 
 I updated my listing to be batteries _not_ included and tried again. The next day I woke up to find another "We removed some of your listings that don’t follow our Seller Policy" email. I messaged support to see if I could get more detail, but they replied with what looked like an automated response with the same generic links and said that they wouldn't provide any further information. I decided to look at people selling similar listings to see if I could find any hints as to what I needed to do there. Someone was selling a badge that flashed LEDs in a random 'supercomputer' pattern. I noticed that they were shipping badges with a zip tie and had very prominent and clear instructions for securing the battery in place so that it could only be removed with scissors. I figured this must be what I was missing (and a sensible idea anyway) so I took some more photos, wrote some instructions, and updated my listing again. 
 

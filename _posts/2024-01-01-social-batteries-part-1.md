@@ -7,15 +7,18 @@ permalink: /posts/social-batteries-part-1
 tags:
 ---
 
->I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](). It's a long post so I have broken it up into chunks to make it a bit easier to digest. These are:
+>I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](). 
+>
+>This is a long post so I have broken it up into chunks to make it a bit easier to digest. These are:
 >
 >1. [Designing and Prototyping the Board](/posts/social-batteries-part-1) (this article)
 >2. [Selling the Prototypes Online](/posts/social-batteries-part-2)
 >3. [Going from Prototype to Production](/posts/social-batteries-part-3)
 
-![3D Render of the design in KiCad](/assets/SocialBattery-1.jpg)
-
 ## Introdution
+![3D Render of the design in KiCad](/assets/SocialBattery-1.jpg)
+*A 3D render of the design in KiCad*
+
 I wanted to experiment with JLC PCB's assembly service - whilst I've designed and manufactured bare PCBs before before placing and soldering components manually, I've got some future projects in mind that will be impractical to solder up by hand due to both the quantity and size of components. It's kind of amazing how cheap this service is when you think about what's involved but it's still expensive enough that it can be a bit daunting handing over your money then waiting to find out whether you've made some mistake that will ruin the end result.
 
 I figured I'd get started with something simple, something I could test the waters of not just PCB assembly, but also e-commerce. My plan was to come up with a small item that I could realistically design and submit for manufacture in less than a day, then hopefully sell reasonably easily on a market place like Etsy. I was expecting the design and manufacture side of things to be the hard part and listing the product on Etsy to be easy, but it was very much the other way around as you will see if you keep reading!
