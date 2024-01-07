@@ -50,4 +50,4 @@ These were all simple fixes to implement. I added a proper programming header th
 
 The code is pretty simple. I keep track of the mode the badge is in which is represented by an integer that gets decremented every time the button is pressed. I then loop and blink each LED on my way round as dictated by the mode. When mode 0 is reached I reset it back to the original number and then put the ATtiny into sleep mode. Pressing the button again triggers the interrupt which wakes the chip and starts the whole process again.
 
-Overall I was really pleased with the results, which meant it was time to see if I could sell them!
+Overall I was really pleased with the results, which meant it was time to see if I could sell them! You can read about my experience doing this in [the next post in this series](/posts/social-batteries-part-2).
