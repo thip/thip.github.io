@@ -16,7 +16,7 @@ tags:
 ![3D Render of the design in KiCad](/assets/SocialBattery-1.jpg)
 
 ## Introdution
-I wanted to experiment with JLC PCB's assembly service - Whilst I've designed and manufactured bare PCBs before before placing and soldering components manually, I've got some future projects in mind that will be impractical to solder up by hand due to both the quantity and size of components. It's kind of amazing how cheap this service is when you think about what's involved but it's still expensive enough that it can be a bit daunting handing over your money then waiting to find out whether you've made some mistake that will ruin the end result.
+I wanted to experiment with JLC PCB's assembly service - whilst I've designed and manufactured bare PCBs before before placing and soldering components manually, I've got some future projects in mind that will be impractical to solder up by hand due to both the quantity and size of components. It's kind of amazing how cheap this service is when you think about what's involved but it's still expensive enough that it can be a bit daunting handing over your money then waiting to find out whether you've made some mistake that will ruin the end result.
 
 I figured I'd get started with something simple, something I could test the waters of not just PCB assembly, but also e-commerce. My plan was to come up with a small item that I could realistically design and submit for manufacture in less than a day, then hopefully sell reasonably easily on a market place like Etsy. I was expecting the design and manufacture side of things to be the hard part and listing the product on Etsy to be easy, but it was very much the other way around as you will see if you keep reading!
 
