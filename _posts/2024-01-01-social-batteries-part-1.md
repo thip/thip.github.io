@@ -7,7 +7,7 @@ permalink: /posts/social-batteries-part-1
 tags:
 ---
 
->I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](). 
+>I wrote this series of posts primarily for myself, or at least someone who is trying to make something electronic to sell. If that's you then I hope this helps you on your journey!  If you just want to see the end product then you can find it at [https://hortus.dev/products/social-battery](https://hortus.dev/products/social-battery). 
 >
 >This is a long post so I have broken it up into chunks to make it a bit easier to digest. These are:
 >
