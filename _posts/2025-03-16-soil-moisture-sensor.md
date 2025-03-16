@@ -5,10 +5,10 @@ image: /assets/moisture_sensor_in_pot.jpg
 description: ""
 permalink: /posts/plant-watering-indicator
 tags:
-- draft
 ---
 
->If you want one of these indicators yourself then I have a few up for sale on my store: [https://hortus.dev/products/houseplant-watering-sensor](). 
+![The finished watering indicator in use](/assets/moisture_sensor_in_pot.jpg)
+>If you want one of these indicators yourself then I have a few up for sale on my store: [https://hortus.dev/products/houseplant-watering-sensor](https://hortus.dev/products/houseplant-watering-sensor?utm_source=davidcapper.dev). 
 
 ## Introduction
 
@@ -19,6 +19,9 @@ A project I've had on the back burner for a while now is an automated watering s
 When I came across these [bar graph displays](https://www.ynvisible.com/product/bar-graph-display-pack-of-3) by a company called Ynvisible I immediately thought about this project again. The thing that I found made automated watering a bit of a pain to manage was the watering part - you need a pump and a reservoir which are easy enough to use, but they take up a lot of space on a windowsill and need a decent amount of power to run. I just couldn't see myself maintaining a set up like this long term which is why I lost interest. Thinking about it, the core problem I was trying to solve wasn't watering the plants, it was knowing when to do it. If I have an indicator that lets me know when the soil is getting dry then I don't mind having to use a watering can myself. 
 
 These displays seemed perfect for the job. They only need an occasional pulse to update/refresh the indicated level, and they require next to no power to do it. I really love the idea of low power projects with a long life - especially when there's the prospect of them running for years on a simple coin cell. I bought some samples and fired up Kicad ready to start designing.
+
+![Ynvisible's seven segment bar graph display](/assets/moisture_sensor_ynvisible_display.jpg)
+*Ynvisible's seven segment bar graph display*
 
 ## How to measure moisture
 
@@ -33,6 +36,7 @@ In this moisture sensing application it's not so much the use of stored charge t
 ## Designing the PCB
 
 ![Designing the PCB in KiCad](/assets/moisture_sensor_pcb_layout.png)
+*Designing the PCB in KiCad*
 
 The circuit itself is pretty simple. I have an STM32 microcontroller which has a pin connected to the capacitive sensing element via a few large resistors. This is used to charge up the sensing element (which is just a big copper area on a spike that is stuck into the soil) slowly enough that I can time how long it takes to cross a voltage threshold. This is measured by another pin on the microcontroller. There is also some voltage regulation circuitry, a serial port, and a bunch of pins broken out so that I can use them to drive the display.
 
@@ -49,6 +53,7 @@ The software is written in C using the standard STM32 HAL libraries. I configure
 With the code loaded onto the device it was time to test it. I used a glass of water to check the basic functionality and confirmed everything was working. One of my original aims for the project was to make something that would last a long time on a single coin cell. I have a [Nordic Semi Power Profiler Kit II](https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2) which is a great little tool for measuring extremely low power devices. I hooked it up and let it record the power usage for an hour. It went through 4 measurement cycles as expected and averaged 10.3uA. With a 225mAh CR2032 coin cell it should last almost 2.5 years! not bad at all! 
 
 ![Power measurement using the PPK II](/assets/moisture_sensor_power_measurement.png)
+*Measuring power consumption with the PPK II*
 
 ## Conclusion
 
