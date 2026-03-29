@@ -27,7 +27,7 @@ The basic idea is simple: All objects emit light when they get hot. The hotter s
     <div style="flex:1;min-width:0">
       <div style="color:#ccc;font-size:16px;font-weight:bold;margin-bottom:4px">Perceived colour:</div>
       <canvas id="fs-bb-pixels" style="width:100%;display:block;border-radius:4px"></canvas>
-      <div id="fs-bb-label" style="color:#bbb;font-size:16px;margin-top:8px;font-family:monospace"></div>
+      <div id="fs-bb-label" style="color:#bbb;font-size:16px;margin-top:8px;font-family:monospace;white-space:pre-line"></div>
       <div style="color:#ccc;font-size:16px;font-weight:bold;margin-top:12px;margin-bottom:4px">Emitted wavelengths of light:</div>
       <canvas id="fs-bb-chart" style="width:100%;display:block;border-radius:4px"></canvas>
     </div>
@@ -154,18 +154,6 @@ The basic idea is simple: All objects emit light when they get hot. The hotter s
     regionLabel('Visible', vis0x, vis1x);
     if (vis1x < W - 30) regionLabel('Infrared', vis1x, W);
 
-    // Wavelength tick marks (bottom row of label area)
-    ctx.fillStyle = '#aaa'; ctx.font = '12px monospace';
-    ctx.textBaseline = 'bottom'; ctx.textAlign = 'center';
-    [300, 500, 700, 900, 1100, 1300].forEach(function (l) {
-      var tx = Math.round((l - LMIN) / (LMAX - LMIN) * W);
-      if (tx > 12 && tx < W - 12) {
-        ctx.fillText(l + ' nm', tx, LABEL_H - 1);
-        ctx.strokeStyle = '#999'; ctx.lineWidth = 1;
-        ctx.beginPath(); ctx.moveTo(tx, LABEL_H - 16); ctx.lineTo(tx, LABEL_H - 13); ctx.stroke();
-      }
-    });
-
     // Visible range boundary marks
     ctx.strokeStyle = 'rgba(255,255,255,0.08)'; ctx.lineWidth = 1;
     [vis0x, vis1x].forEach(function (vx) {
@@ -222,9 +210,8 @@ The basic idea is simple: All objects emit light when they get hot. The hotter s
   function update() {
     var T = parseInt(slider.value);
     var wien = Math.round(2898000 / T);
-    var loc = wien < VIS0 ? ' (UV)' : wien > VIS1 ? ' (infrared)' : ' (visible)';
     var desc = T < 798 ? 'black' : T < 1500 ? 'dull red' : T < 2500 ? 'orange' : T < 3000 ? 'yellow' : T < 3500 ? 'warm white' : T < 5500 ? 'white' : T < 8000 ? 'cool white' : 'blue-white';
-    lbl.textContent = (T - 273) + ' °C - ' + desc + ' - peak wavelength at ' + wien + ' nm' + loc;
+    lbl.textContent = (T - 273) + ' °C - ' + desc + '\nPeak wavelength at ' + wien + ' nm';
     drawChart(T);
     drawPixels(T);
   }
