@@ -4,8 +4,6 @@ title:  "Simulating a glowing fireplace with an RP2040"
 image: /assets/firestring.jpg
 description: "Building a custom LED fire simulation for a blocked-up fireplace, from prototype to custom PCB and optimised firmware."
 permalink: /posts/fire-string
-tags:
-- draft
 ---
 
 ![The Fire String in a fireplace](/assets/firestring.jpg)
@@ -370,8 +368,6 @@ This by itself wouldn't make for a particularly interesting effect though. We ne
 
 Rummaging around in my parts box I picked out a Pimoroni Tiny 2040 board and a nice long string of WS2812B LEDs that I'd been saving for a rainy day project just like this one. Hooking them up was as simple as connecting power, ground and data directly to the Tiny 2040. WS2812B led string like the one I used can draw quite a lot of power so it is worth thinking about how you are going to supply them. In this case however these concerns were mitigated by the fact that most of the LEDs would be lit as a low red with only the occasional bright white ember.
 
-![TODO: Photo of the early prototype — Tiny 2040 with wires twisted through the holes, LED string attached](/assets/TODO_prototype.jpg)
-*The early prototype — functional but fragile*
 
 I initially implemented the code using circuit python mostly out of convenience. There's something satisfying about being able to write code directly on the device and getting real time feedback as you make changes. The LED string was represented using an array. I implemented the ember effect by first adding heat to random positions in the array every frame, and then iterating through it applying the rules for decay and diffusion to each element and its neighbours. I then used a lookup table to render the correct colour values for the resulting temperatures in the array to the LED string.
 
@@ -644,20 +640,20 @@ Having reclaimed a significant amount of processor time I was able to really go 
 </script>
 
 
-![TODO: Screenshot of the Web Serial configurator with the curve editors](/assets/TODO_configurator.png)
-*The browser-based configurator for tuning parameters in real time*
 
 With so many parameters to tune, it was becoming quite tedious to make changes as I had to update and upload the code every time I wanted to tweak something. To make life easier I made a HTML/JavaScript based configurator that let me design the various curves graphically and have them update on the LEDs in real time by sending the parameters to the board via the Web Serial API. This was quite fun to play with but I found that it was very easy to lose track of the settings that I liked while I fiddled, so I added functionality to save and load presets.
 
 With the electronics and firmware in a good place, the last thing to do was give it a proper home. I modelled an enclosure in Onshape, designing it as a two-piece shell with curved edges so the top and bottom mate together cleanly. I added internal snap clips so it holds together without any screws or glue, and had it 3D printed. The final result looks really polished and gives the whole thing a much more finished feel.
 
-![TODO: Photo of the board in the enclosure with LED string attached, ideally lit up](/assets/TODO_enclosure_real.jpg)
+![The finished board in its 3D printed enclosure](/assets/firestring_quarter.png)
 *The finished board in its 3D printed enclosure*
 
 What started as a tangle of unsoldered wires has ended up as something I'm genuinely proud of. The project has a custom board, firmware that runs well, and a configuration interface that lets me dial in exactly the effect I want. The whole thing feels complete and more importantly it's still sitting in our fireplace doing its job every evening.
 
 ## Make your own
 
-![TODO: Glamour shot of the finished Fire String product](/assets/TODO_product.jpg)
+<video autoplay loop muted playsinline controls style="width:100%;border-radius:8px">
+  <source src="/assets/firestring_video_long_square.mp4" type="video/mp4">
+</video>
 
-I had a great time working on this project, and if you want a share in some of the joy I derived from it the code and files are available on [GitHub](TODO_REPO_LINK). That repo contains everything you need to build your own version of what I'm calling the 'Fire String' either by getting your own boards made or doing something similar to my early prototype version with an off-the-shelf RP2040 dev board like the Raspberry Pi Pico. Alternatively if you just want a complete polished product in your hands like the one I ended up with I've got a limited number available for sale on my store at [hortus.dev/products/fire-string](https://hortus.dev/products/fire-string) along with a bunch of other projects that I have worked on.
+I had a great time working on this project, and if you want a share in some of the joy I derived from it the code and files are available on [GitHub](https://github.com/thip/firestring). That repo contains everything you need to build your own version of what I'm calling the 'Fire String' either by getting your own boards made or doing something similar to my early prototype version with an off-the-shelf RP2040 dev board like the Raspberry Pi Pico. Alternatively if you just want a complete polished product in your hands like the one I ended up with I've got a limited number available for sale on my store at [hortus.dev/products/fire-string](https://hortus.dev/products/fire-string) along with a bunch of other projects that I have worked on.
