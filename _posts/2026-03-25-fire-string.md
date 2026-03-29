@@ -650,7 +650,7 @@ With the electronics and firmware in a good place, the last thing to do was give
 
 What started as a tangle of unsoldered wires has ended up as something I'm genuinely proud of. The project has a custom board, firmware that runs well, and a configuration interface that lets me dial in exactly the effect I want. The whole thing feels complete and more importantly it's still sitting in our fireplace doing its job every evening.
 
-## Make your own
+## Making it your own
 
 <video autoplay loop muted playsinline controls style="width:100%;border-radius:8px">
   <source src="/assets/firestring_video_long_square.mp4" type="video/mp4">
