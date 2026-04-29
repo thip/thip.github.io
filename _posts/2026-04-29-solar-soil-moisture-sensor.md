@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solar Houseplant Monitoring - Redesigning My Soil Moisture Sensor Around the AEM10941"
+title:  "Going solar: a maintenance-free redesign of my plant watering indicator"
 image: /assets/solar_moisture_sensor_cropped.png
 description: ""
 permalink: /posts/solar-soil-moisture-sensor
